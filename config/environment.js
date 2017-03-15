@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'TAFrew',
+    modulePrefix: 'my-website',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
@@ -39,8 +39,6 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.locationType = 'hash';
-    ENV.rootURL = '/my-website/';
 
   }
 
